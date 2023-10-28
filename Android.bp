@@ -7790,6 +7790,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "nfc_nci.st21nfc.st",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/nfc_nci.st21nfc.st.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "ov16a1qofilm_mipi_raw_IdxMgr",
 	owner: "xiaomi",
 	strip: {
@@ -7946,6 +7963,19 @@ cc_prebuilt_binary {
 		none: true,
 	},
 	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.nfc@1.2-service-st",
+	owner: "xiaomi",
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 

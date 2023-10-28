@@ -85,6 +85,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/xiaomi/everpal/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
     vendor/xiaomi/everpal/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
     vendor/xiaomi/everpal/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
     vendor/xiaomi/everpal/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/everpal/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
@@ -114,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/aw87xxx_pid_59_vmax_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_pid_59_vmax_0.bin \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/aw87xxx_pid_59_voice_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_pid_59_voice_0.bin \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
+    vendor/xiaomi/everpal/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_data.so \
@@ -599,6 +603,7 @@ PRODUCT_PACKAGES += \
     libwa_refocus \
     libwa_rtdof \
     libxmi_high_dynamic_range \
+    nfc_nci.st21nfc.st \
     ov16a1qofilm_mipi_raw_IdxMgr \
     ov16a1qofilm_mipi_raw_tuning \
     ov16a1qqtech_mipi_raw_IdxMgr \
@@ -609,6 +614,7 @@ PRODUCT_PACKAGES += \
     s5kjn1sunny_mipi_raw_tuning \
     batterysecret \
     fuelgauged_nvram \
+    android.hardware.nfc@1.2-service-st \
     camerahalserver \
     vendor.mediatek.hardware.pq@2.2-service \
     mi_thermald \
