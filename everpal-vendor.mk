@@ -614,7 +614,6 @@ PRODUCT_PACKAGES += \
     s5kjn1sunny_mipi_raw_tuning \
     batterysecret \
     fuelgauged_nvram \
-    android.hardware.nfc@1.2-service-st \
     camerahalserver \
     vendor.mediatek.hardware.pq@2.2-service \
     mi_thermald \
