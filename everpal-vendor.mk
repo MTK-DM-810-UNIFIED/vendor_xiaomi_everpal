@@ -616,7 +616,6 @@ PRODUCT_PACKAGES += \
     fuelgauged_nvram \
     camerahalserver \
     vendor.mediatek.hardware.pq@2.2-service \
-    mi_thermald \
     nvram_daemon \
     rcs_volte_stack \
     teei_daemon \
