@@ -7950,6 +7950,19 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+	name: "android.hardware.secure_element@1.2-service-mediatek",
+	owner: "xiaomi",
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
 	name: "camerahalserver",
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/camerahalserver"],

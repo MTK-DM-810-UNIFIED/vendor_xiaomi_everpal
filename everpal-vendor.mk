@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/everpal
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/everpal/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/xiaomi/everpal/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_AudioParam.xml \
@@ -609,6 +608,7 @@ PRODUCT_PACKAGES += \
     s5kjn1sunny_mipi_raw_tuning \
     batterysecret \
     fuelgauged_nvram \
+    android.hardware.secure_element@1.2-service-mediatek \
     camerahalserver \
     vendor.mediatek.hardware.pq@2.2-service \
     nvram_daemon \
