@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvpud_vcodec \
+    gc02m1aac_mipi_raw_IdxMgr \
+    gc02m1aac_mipi_raw_tuning \
+    gc02m1ofilm_mipi_raw_IdxMgr \
+    gc02m1ofilm_mipi_raw_tuning \
     android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
     hwcomposer.mt6833 \
@@ -224,6 +228,32 @@ PRODUCT_PACKAGES += \
     lib3a.flash \
     lib3a.flicker \
     lib3a.gma \
+    libCamera_gc02m1aacmipiraw_Default_Capture \
+    libCamera_gc02m1aacmipiraw_Default_Preview \
+    libCamera_gc02m1aacmipiraw_Default_Video \
+    libCamera_gc02m1aacmipiraw_Flash_Capture \
+    libCamera_gc02m1aacmipiraw_Scene_Capture \
+    libCamera_gc02m1aacmipiraw_Scene_Capture_Zoom1 \
+    libCamera_gc02m1aacmipiraw_Scene_Capture_Zoom2 \
+    libCamera_gc02m1aacmipiraw_Scene_Preview \
+    libCamera_gc02m1aacmipiraw_Scene_Preview_Zoom1 \
+    libCamera_gc02m1aacmipiraw_Scene_Preview_Zoom2 \
+    libCamera_gc02m1aacmipiraw_Scene_Professional_Capture \
+    libCamera_gc02m1aacmipiraw_Scene_Professional_Preview \
+    libCamera_gc02m1aacmipiraw_Video \
+    libCamera_gc02m1ofilmmipiraw_Default_Capture \
+    libCamera_gc02m1ofilmmipiraw_Default_Preview \
+    libCamera_gc02m1ofilmmipiraw_Default_Video \
+    libCamera_gc02m1ofilmmipiraw_Flash_Capture \
+    libCamera_gc02m1ofilmmipiraw_Scene_Capture \
+    libCamera_gc02m1ofilmmipiraw_Scene_Capture_Zoom1 \
+    libCamera_gc02m1ofilmmipiraw_Scene_Capture_Zoom2 \
+    libCamera_gc02m1ofilmmipiraw_Scene_Preview \
+    libCamera_gc02m1ofilmmipiraw_Scene_Preview_Zoom1 \
+    libCamera_gc02m1ofilmmipiraw_Scene_Preview_Zoom2 \
+    libCamera_gc02m1ofilmmipiraw_Scene_Professional_Capture \
+    libCamera_gc02m1ofilmmipiraw_Scene_Professional_Preview \
+    libCamera_gc02m1ofilmmipiraw_Video \
     libCamera_imx355ofilmmipiraw_3rd_Capture \
     libCamera_imx355ofilmmipiraw_Color_Capture \
     libCamera_imx355ofilmmipiraw_E2EHDR_Preview \
@@ -366,6 +396,180 @@ PRODUCT_PACKAGES += \
     libCamera_ov50c40ofilmmipiraw_Wechat_Capture_Call \
     libCamera_ov50c40ofilmmipiraw_portrait_capture_full \
     libCamera_ov50c40ofilmmipiraw_portrait_preview_full \
+    libCamera_s5k3l6aacmipiraw_3rd_Capture \
+    libCamera_s5k3l6aacmipiraw_3rd_Preview \
+    libCamera_s5k3l6aacmipiraw_3rd_Video \
+    libCamera_s5k3l6aacmipiraw_Default_Capture \
+    libCamera_s5k3l6aacmipiraw_Default_Preview \
+    libCamera_s5k3l6aacmipiraw_EIS_Video_1080P \
+    libCamera_s5k3l6aacmipiraw_EIS_Video_720P \
+    libCamera_s5k3l6aacmipiraw_FaceUnlock_Capture \
+    libCamera_s5k3l6aacmipiraw_Face_Capture \
+    libCamera_s5k3l6aacmipiraw_Face_Preview \
+    libCamera_s5k3l6aacmipiraw_FrontLight_Capture \
+    libCamera_s5k3l6aacmipiraw_FrontLight_Preview \
+    libCamera_s5k3l6aacmipiraw_HDR_Capture \
+    libCamera_s5k3l6aacmipiraw_ITS_CaptureYUV \
+    libCamera_s5k3l6aacmipiraw_P1_YUV \
+    libCamera_s5k3l6aacmipiraw_Panorama_Capture \
+    libCamera_s5k3l6aacmipiraw_Portrait_Capture \
+    libCamera_s5k3l6aacmipiraw_Portrait_Preview \
+    libCamera_s5k3l6aacmipiraw_QQWechat_Video \
+    libCamera_s5k3l6aacmipiraw_QQWechat_VideoCall \
+    libCamera_s5k3l6aacmipiraw_Scene_Capture \
+    libCamera_s5k3l6aacmipiraw_Scene_Preview \
+    libCamera_s5k3l6aacmipiraw_Video_1080 \
+    libCamera_s5k3l6aacmipiraw_Video_720 \
+    libCamera_s5k3l6aacmipiraw_Video_720p_120fps \
+    libCamera_s5k3l6qtechmipiraw_3rd_Capture \
+    libCamera_s5k3l6qtechmipiraw_3rd_Preview \
+    libCamera_s5k3l6qtechmipiraw_3rd_Video \
+    libCamera_s5k3l6qtechmipiraw_Default_Capture \
+    libCamera_s5k3l6qtechmipiraw_Default_Preview \
+    libCamera_s5k3l6qtechmipiraw_EIS_Video_1080P \
+    libCamera_s5k3l6qtechmipiraw_EIS_Video_720P \
+    libCamera_s5k3l6qtechmipiraw_FaceUnlock_Capture \
+    libCamera_s5k3l6qtechmipiraw_Face_Capture \
+    libCamera_s5k3l6qtechmipiraw_Face_Preview \
+    libCamera_s5k3l6qtechmipiraw_FrontLight_Capture \
+    libCamera_s5k3l6qtechmipiraw_FrontLight_Preview \
+    libCamera_s5k3l6qtechmipiraw_HDR_Capture \
+    libCamera_s5k3l6qtechmipiraw_ITS_CaptureYUV \
+    libCamera_s5k3l6qtechmipiraw_P1_YUV \
+    libCamera_s5k3l6qtechmipiraw_Panorama_Capture \
+    libCamera_s5k3l6qtechmipiraw_Portrait_Capture \
+    libCamera_s5k3l6qtechmipiraw_Portrait_Preview \
+    libCamera_s5k3l6qtechmipiraw_QQWechat_Video \
+    libCamera_s5k3l6qtechmipiraw_QQWechat_VideoCall \
+    libCamera_s5k3l6qtechmipiraw_Scene_Capture \
+    libCamera_s5k3l6qtechmipiraw_Scene_Preview \
+    libCamera_s5k3l6qtechmipiraw_Video_1080 \
+    libCamera_s5k3l6qtechmipiraw_Video_720 \
+    libCamera_s5k3l6qtechmipiraw_Video_720p_120fps \
+    libCamera_s5kjn1aacmipiraw_3rd_Capture \
+    libCamera_s5kjn1aacmipiraw_E2EHDR_Preview \
+    libCamera_s5kjn1aacmipiraw_E2EHDR_Video \
+    libCamera_s5kjn1aacmipiraw_Face_Capture \
+    libCamera_s5kjn1aacmipiraw_Face_Capture_50 \
+    libCamera_s5kjn1aacmipiraw_Flash_Capture \
+    libCamera_s5kjn1aacmipiraw_Flash_Capture_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Flash_Capture_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_HDR_Face_Capture \
+    libCamera_s5kjn1aacmipiraw_HDR_Scene_Capture \
+    libCamera_s5kjn1aacmipiraw_HDR_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_HDR_Scene_Capture_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_LLHDR_Face_Capture \
+    libCamera_s5kjn1aacmipiraw_LLHDR_Scene_Capture \
+    libCamera_s5kjn1aacmipiraw_LLHDR_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_LLHDR_Scene_Capture_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_MFSR_Scene_Capture \
+    libCamera_s5kjn1aacmipiraw_MFSR_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_P1_YUV \
+    libCamera_s5kjn1aacmipiraw_Panorama_Capture \
+    libCamera_s5kjn1aacmipiraw_Professional_Capture \
+    libCamera_s5kjn1aacmipiraw_Professional_Capture_face \
+    libCamera_s5kjn1aacmipiraw_Professional_Capture_zoom1 \
+    libCamera_s5kjn1aacmipiraw_Professional_Capture_zoom2 \
+    libCamera_s5kjn1aacmipiraw_Professional_Preview \
+    libCamera_s5kjn1aacmipiraw_Professional_Preview_face \
+    libCamera_s5kjn1aacmipiraw_QQ_Capture \
+    libCamera_s5kjn1aacmipiraw_QQ_Capture_Call \
+    libCamera_s5kjn1aacmipiraw_Scene_Capture \
+    libCamera_s5kjn1aacmipiraw_Scene_Capture_50 \
+    libCamera_s5kjn1aacmipiraw_Scene_Preview \
+    libCamera_s5kjn1aacmipiraw_Scene_Preview_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Scene_Preview_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_SuperNS_Face_Capture \
+    libCamera_s5kjn1aacmipiraw_SuperNS_Scene_Capture \
+    libCamera_s5kjn1aacmipiraw_SuperNS_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_SuperNS_Scene_Capture_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_SuperNS_Scene_Preview_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_SuperNS_Scene_Preview_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_Video_1080 \
+    libCamera_s5kjn1aacmipiraw_Video_1080P_60fps \
+    libCamera_s5kjn1aacmipiraw_Video_1080P_60fps_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Video_1080P_60fps_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_Video_1080P_EIS \
+    libCamera_s5kjn1aacmipiraw_Video_1080P_EIS_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Video_1080P_EIS_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_Video_1080_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Video_1080_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_Video_480P \
+    libCamera_s5kjn1aacmipiraw_Video_720P \
+    libCamera_s5kjn1aacmipiraw_Video_720P_240fps \
+    libCamera_s5kjn1aacmipiraw_Video_720P_240fps_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Video_720P_240fps_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_Video_720P_EIS \
+    libCamera_s5kjn1aacmipiraw_Video_720P_EIS_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Video_720P_EIS_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_Video_720P_Zoom1 \
+    libCamera_s5kjn1aacmipiraw_Video_720P_Zoom2 \
+    libCamera_s5kjn1aacmipiraw_Wechat_Capture \
+    libCamera_s5kjn1aacmipiraw_Wechat_Capture_Call \
+    libCamera_s5kjn1aacmipiraw_portrait_capture_full \
+    libCamera_s5kjn1aacmipiraw_portrait_preview_full \
+    libCamera_s5kjn1ofilmmipiraw_3rd_Capture \
+    libCamera_s5kjn1ofilmmipiraw_E2EHDR_Preview \
+    libCamera_s5kjn1ofilmmipiraw_E2EHDR_Video \
+    libCamera_s5kjn1ofilmmipiraw_Face_Capture \
+    libCamera_s5kjn1ofilmmipiraw_Face_Capture_50 \
+    libCamera_s5kjn1ofilmmipiraw_Flash_Capture \
+    libCamera_s5kjn1ofilmmipiraw_Flash_Capture_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Flash_Capture_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_HDR_Face_Capture \
+    libCamera_s5kjn1ofilmmipiraw_HDR_Scene_Capture \
+    libCamera_s5kjn1ofilmmipiraw_HDR_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_HDR_Scene_Capture_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_LLHDR_Face_Capture \
+    libCamera_s5kjn1ofilmmipiraw_LLHDR_Scene_Capture \
+    libCamera_s5kjn1ofilmmipiraw_LLHDR_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_LLHDR_Scene_Capture_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_MFSR_Scene_Capture \
+    libCamera_s5kjn1ofilmmipiraw_MFSR_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_P1_YUV \
+    libCamera_s5kjn1ofilmmipiraw_Panorama_Capture \
+    libCamera_s5kjn1ofilmmipiraw_Professional_Capture \
+    libCamera_s5kjn1ofilmmipiraw_Professional_Capture_face \
+    libCamera_s5kjn1ofilmmipiraw_Professional_Capture_zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Professional_Capture_zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Professional_Preview \
+    libCamera_s5kjn1ofilmmipiraw_Professional_Preview_face \
+    libCamera_s5kjn1ofilmmipiraw_QQ_Capture \
+    libCamera_s5kjn1ofilmmipiraw_QQ_Capture_Call \
+    libCamera_s5kjn1ofilmmipiraw_Scene_Capture \
+    libCamera_s5kjn1ofilmmipiraw_Scene_Capture_50 \
+    libCamera_s5kjn1ofilmmipiraw_Scene_Preview \
+    libCamera_s5kjn1ofilmmipiraw_Scene_Preview_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Scene_Preview_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_SuperNS_Face_Capture \
+    libCamera_s5kjn1ofilmmipiraw_SuperNS_Scene_Capture \
+    libCamera_s5kjn1ofilmmipiraw_SuperNS_Scene_Capture_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_SuperNS_Scene_Capture_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_SuperNS_Scene_Preview_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_SuperNS_Scene_Preview_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080 \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080P_60fps \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080P_60fps_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080P_60fps_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080P_EIS \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080P_EIS_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080P_EIS_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Video_1080_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Video_480P \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_240fps \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_240fps_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_240fps_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_EIS \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_EIS_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_EIS_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_Zoom1 \
+    libCamera_s5kjn1ofilmmipiraw_Video_720P_Zoom2 \
+    libCamera_s5kjn1ofilmmipiraw_Wechat_Capture \
+    libCamera_s5kjn1ofilmmipiraw_Wechat_Capture_Call \
+    libCamera_s5kjn1ofilmmipiraw_portrait_capture_full \
+    libCamera_s5kjn1ofilmmipiraw_portrait_preview_full \
     libCamera_s5kjn1sunnymipiraw_3rd_Capture \
     libCamera_s5kjn1sunnymipiraw_E2EHDR_Preview \
     libCamera_s5kjn1sunnymipiraw_E2EHDR_Video \
@@ -604,6 +808,14 @@ PRODUCT_PACKAGES += \
     ov16a1qqtech_mipi_raw_tuning \
     ov50c40ofilm_mipi_raw_IdxMgr \
     ov50c40ofilm_mipi_raw_tuning \
+    s5k3l6aac_mipi_raw_IdxMgr \
+    s5k3l6aac_mipi_raw_tuning \
+    s5k3l6qtech_mipi_raw_IdxMgr \
+    s5k3l6qtech_mipi_raw_tuning \
+    s5kjn1aac_mipi_raw_IdxMgr \
+    s5kjn1aac_mipi_raw_tuning \
+    s5kjn1ofilm_mipi_raw_IdxMgr \
+    s5kjn1ofilm_mipi_raw_tuning \
     s5kjn1sunny_mipi_raw_IdxMgr \
     s5kjn1sunny_mipi_raw_tuning \
     batterysecret \
