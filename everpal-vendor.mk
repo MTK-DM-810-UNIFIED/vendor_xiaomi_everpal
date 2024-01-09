@@ -825,7 +825,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service-mediatek \
     camerahalserver \
     vendor.mediatek.hardware.pq@2.2-service \
-    mi_thermald \
     nvram_daemon \
     rcs_volte_stack \
     teei_daemon \
