@@ -1,6 +1,6 @@
 #if there is any change, please modify the commiter and modification time when submitting
 commiter: 'chenyifei'
-timestamp: '202111092042'
+timestamp: '202109021804'
 product_name: 'K16A'
 platform: 'mtk'
 
@@ -68,7 +68,6 @@ cn:
         ev_4_frame: [0, 0, 0, 0] # support 4 frame pipeline?
         ev_normal: [0, -18, 9]
         ev_lowlight: [0, 0, 0, -24]
-        ev_lowlight_bright: [0, 0, 0, -24]
         ev_bokeh: [-24, 0]
         ev_flash: [-24, -12, 0]
         ev_order: [[0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3]]
@@ -122,13 +121,13 @@ india:
             real_drc_gain: [3.5, 6.0, 3.5, 3.5]
             luxindex: [360, 325, 360, 360]
             threshold: [0.73, 0.73, 0.73, 0.73]
-            overexp_ratio: [0.02, 0.02, 0.02, 0.02]
+            overexp_ratio: [0.03, 0.03, 0.03, 0.03]
             overexp_start_bin: [251, 251, 251, 251]
           HDR-ON: # just for india version
             real_drc_gain: [3.5, 6.0, 3.5, 3.5]
             luxindex: [360, 325, 360, 360]
             threshold: [0.73, 0.73, 0.73, 0.73]
-            overexp_ratio: [0.02, 0.02, 0.02, 0.02]
+            overexp_ratio: [0.01, 0.01, 0.01, 0.01]
             overexp_start_bin: [251, 251, 251, 251]
         lowlight:
           detect: 8 # four bit, 0b___, luxindex, exp time, sensitivity, ae luma
@@ -173,7 +172,6 @@ india:
         ev_4_frame: [0, 0, 0, 0] # support 4 frame pipeline?
         ev_normal: [0, -18, 9]
         ev_lowlight: [0, 0, 0, -24]
-        ev_lowlight_bright: [0, 0, 0, -24]
         ev_bokeh: [-24, 0]
         ev_flash: [-24, -12, 0]
         ev_order: [[0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3]]
@@ -206,7 +204,6 @@ india:
       choose_model_front: 2
       state_luxindex: 15
       state_hist_corr: 0.8
-      limit_ae_converge: 0
       judge_ae_active: 1
       judge_ae_converge: 1
       judge_ae_luxindex: 5
@@ -279,7 +276,6 @@ global:
         ev_4_frame: [0, 0, 0, 0] # support 4 frame pipeline?
         ev_normal: [0, -18, 9]
         ev_lowlight: [0, 0, 0, -24]
-        ev_lowlight_bright: [0, 0, 0, -24]
         ev_bokeh: [-24, 0]
         ev_flash: [-24, -12, 0]
         ev_order: [[0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3]]

@@ -18,7 +18,6 @@
                 <Category name="5_pole_Headset+ANC" wording="5-pole headset(ANC ON)" feature_option="MTK_HEADSET_ACTIVE_NOISE_CANCELLATION"/>
             </CategoryGroup>
             <CategoryGroup name="Hands-free">
- 
                 <Category name="MagiConference" wording="Hands-free(2-mic NR)"/>
 				<Category name="Handsfree" wording="Hands-free(1-mic NR)"/>
             </CategoryGroup>

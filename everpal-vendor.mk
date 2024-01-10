@@ -8,10 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_AudioParam.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/CRSVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/CRSVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_AudioParam.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/CRSVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
@@ -28,8 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
@@ -50,19 +44,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_AudioParam.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_AudioParam.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/aurisys_param/sixth_param.txt:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/sixth_param.txt \
     vendor/xiaomi/everpal/proprietary/vendor/etc/aurisys_param/sixth_param_voip.txt:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/sixth_param_voip.txt \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/camera/K16B.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/K16B.bin \
     vendor/xiaomi/everpal/proprietary/vendor/etc/camera/LDC_packdata_xiaomi.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi.dat \
     vendor/xiaomi/everpal/proprietary/vendor/etc/camera/com.xiaomi.dcal.wd.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wd.golden \
     vendor/xiaomi/everpal/proprietary/vendor/etc/camera/dof_mecp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dof_mecp.bin \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/camera/goldResult_K16B_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goldResult_K16B_1.bin \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/camera/goldResult_k16b_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goldResult_k16b_2.bin \
     vendor/xiaomi/everpal/proprietary/vendor/etc/camera/hdrcheckerparamsettings.yml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdrcheckerparamsettings.yml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/camera/intsense_config_undistort.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/intsense_config_undistort.bin \
     vendor/xiaomi/everpal/proprietary/vendor/etc/camera/libalfpc_tuning.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/libalfpc_tuning.bin \
@@ -100,12 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/etc/thermal-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-video.conf \
     vendor/xiaomi/everpal/proprietary/vendor/etc/thermal-youtube.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-youtube.conf \
     vendor/xiaomi/everpal/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/everpal/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
-    vendor/xiaomi/everpal/proprietary/vendor/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/1_doubelClick_P_RTP.bin \
-    vendor/xiaomi/everpal/proprietary/vendor/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/2_tick_P_RTP.bin \
-    vendor/xiaomi/everpal/proprietary/vendor/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/3_thud_P_RTP.bin \
-    vendor/xiaomi/everpal/proprietary/vendor/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/4_pop_P_RTP.bin \
-    vendor/xiaomi/everpal/proprietary/vendor/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/5_heavyClick_P_RTP.bin \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/aw8697_rtp_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_1.bin \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/aw87xxx_pid_59_fm_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_pid_59_fm_0.bin \
@@ -117,65 +101,71 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
     vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
-    vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_data.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
-    vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
-    vendor/xiaomi/everpal/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
-    vendor/xiaomi/everpal/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
     vendor/xiaomi/everpal/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/020b0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020b0000000000000000000000000000.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/05120000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/05120000000000000000000000000000.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/06090000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/06090000000000000000000000000000.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/07060000000000000000000000007169.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/07060000000000000000000000007169.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/08010203000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08010203000000000000000000000000.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/08020000000000000000000000007169.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08020000000000000000000000007169.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/08030000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08030000000000000000000000000000.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/08040000000000000000000000003419.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08040000000000000000000000003419.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/08050000000000000000000000003419.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08050000000000000000000000003419.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/08070000000000000000000000008270.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08070000000000000000000000008270.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/08110000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08110000000000000000000000000000.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/09010000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/09010000000000000000000000000000.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/09030000000000000000000000008270.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/09030000000000000000000000008270.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/40188311faf343488db888ad39496f9a.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/40188311faf343488db888ad39496f9a.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/4be4f7dc1f2c11e5b5f7727283247c7f.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/4be4f7dc1f2c11e5b5f7727283247c7f.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/4be4fd221f2c11e5b5f7727283247c7f.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/4be4fd221f2c11e5b5f7727283247c7f.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/5020170115e016302017012521300000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/5020170115e016302017012521300000.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/9073f03a9618383bb1856eb3f990babd.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/9073f03a9618383bb1856eb3f990babd.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/98fb95bcb4bf42d26473eae48690d7ea.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/98fb95bcb4bf42d26473eae48690d7ea.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta \
     vendor/xiaomi/everpal/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
-    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
-    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
+    vendor/xiaomi/everpal/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
-    vendor.mediatek.hardware.pq@2.13-impl \
+    vendor.mediatek.hardware.pq@2.6-impl \
     libaal_cust \
     libaal_mtk \
     libaalservice \
-    libaiselector \
     libcustom_nvram \
     libdpframework \
-    libdre \
     libfile_op \
-    libgamehdr \
     libged \
     libgpu_aux \
     libgpud \
     libgralloc_extra \
-    libmml \
     libmtcloader \
     libnvram \
     libnvram_sec \
     libpq_cust_base \
     libpq_prot \
-    libpqframework \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
     audio.primary.mt6833 \
     audio.r_submix.mt6833 \
-    sound_trigger.primary.default \
+    sound_trigger.primary.mt6833 \
     libMtkOmxAlacDec \
     lib_speech_enh \
     libaudio_param_parser-vnd \
@@ -184,21 +174,10 @@ PRODUCT_PACKAGES += \
     libaudiocustparam_vendor \
     libaudioprimarydevicehalifclient \
     libaudiotoolkit_vendor \
-    libcodec2_mtk_c2store \
-    libcodec2_mtk_vdec \
-    libcodec2_mtk_venc \
-    libcodec2_vpp_qt_plugin \
-    libcodec2_vpp_rs_plugin \
     libfgauge_gm30 \
-    libformatter \
-    libnxp_extamp_intf \
-    librcs_volte_core \
-    librt_extamp_intf \
     libspeechparser_vendor \
     libvcodec_utility \
     libvcodecdrv \
-    libvow_ap_test_aa \
-    libvow_ap_test_dd \
     libvpud_vcodec \
     gc02m1aac_mipi_raw_IdxMgr \
     gc02m1aac_mipi_raw_tuning \
@@ -636,7 +615,6 @@ PRODUCT_PACKAGES += \
     libCamera_s5kjn1sunnymipiraw_portrait_preview_full \
     libJpgEncPipe \
     libOpenCL \
-    libSQLiteModule_VER_ALL \
     libSonyIMX230PdafLibrary \
     libSonyIMX230PdafLibraryWrapper \
     libSonyIMX338PdafLibrary \
@@ -651,7 +629,6 @@ PRODUCT_PACKAGES += \
     libaaa_ltm \
     libaiawb_sun \
     libalLDC \
-    libalacdec_mtk \
     libalhLDC \
     libanc_dc_base \
     libanc_dc_plugin_xiaomi_v2 \
@@ -681,7 +658,6 @@ PRODUCT_PACKAGES += \
     libcam.iopipe \
     libcam.isptuning \
     libcam.pdtblgen \
-    libcam.seninfn3d \
     libcam.tuning.cache \
     libcam.utils.sensorprovider \
     libcam.vhdr \
@@ -691,7 +667,6 @@ PRODUCT_PACKAGES += \
     libcamalgo.gyro \
     libcamalgo.lsc \
     libcamalgo.n3d \
-    libcamalgo.rotate \
     libcamalgo.warp \
     libcamdrv_imem \
     libcamdrv_isp \
@@ -704,14 +679,11 @@ PRODUCT_PACKAGES += \
     libcamera_scene \
     libcameracustom.camera.3a \
     libcameracustom.camera.isp \
-    libcameracustom.camera.sensors \
     libcameracustom.camera_exif \
     libcameracustom.eis \
     libcameracustom.flashlight \
     libcameracustom.lens \
     libcameracustom \
-    libcameracustom_all_sensor_modules \
-    libcomposer_ext \
     libdip_imem \
     libdip_postproc \
     libeffecthal.base \
@@ -723,8 +695,6 @@ PRODUCT_PACKAGES += \
     libfeature_fsc \
     libfeature_lmv \
     libfeatureiodrv_mem \
-    libhdrvideo \
-    libheichal \
     libhfmanager \
     libhwm \
     libimageio_plat_drv \
@@ -780,7 +750,6 @@ PRODUCT_PACKAGES += \
     libmtkcam_pipelinemodel_session \
     libmtkcam_pipelinemodel_utils \
     libmtkcam_pipelinemodel_zsl \
-    libmtkcam_pipelinepolicy-aov \
     libmtkcam_pipelinepolicy-smvr \
     libmtkcam_pipelinepolicy \
     libmtkcam_pipelinepolicy_factory \
@@ -792,10 +761,8 @@ PRODUCT_PACKAGES += \
     libmtkcam_synchelper \
     libmtkcam_sysutils \
     libmtkcam_tuning_utils \
-    libmtkcam_vsync_util \
     libmtkisp_metadata \
     libnotifyaudiohal \
-    libpqparamparser \
     libsdk_sr \
     libsensor_custom \
     libvideofilter_only \
@@ -825,9 +792,8 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service-mediatek \
     camerahalserver \
     vendor.mediatek.hardware.pq@2.2-service \
+    mi_thermald \
     nvram_daemon \
-    rcs_volte_stack \
     teei_daemon \
     thermal_manager \
-    volte_rcs_ua \
     vpud
