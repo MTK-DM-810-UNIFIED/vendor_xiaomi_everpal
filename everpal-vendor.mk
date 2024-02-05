@@ -804,6 +804,7 @@ PRODUCT_PACKAGES += \
     libwa_depth \
     libwa_refocus \
     libwa_rtdof \
+    libwa_widelens_undistort \
     libxmi_high_dynamic_range \
     ov16a1qofilm_mipi_raw_IdxMgr \
     ov16a1qofilm_mipi_raw_tuning \
