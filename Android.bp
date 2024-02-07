@@ -22,6 +22,17 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "EngineerMode",
+	owner: "xiaomi",
+	apk: "proprietary/system/priv-app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "ImsService",
 	owner: "xiaomi",
 	apk: "proprietary/system/priv-app/ImsService/ImsService.apk",
