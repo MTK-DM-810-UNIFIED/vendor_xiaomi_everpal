@@ -194,6 +194,7 @@ PRODUCT_PACKAGES += \
     libnxp_extamp_intf \
     librcs_volte_core \
     librt_extamp_intf \
+    libsixth \
     libspeechparser_vendor \
     libvcodec_utility \
     libvcodecdrv \
