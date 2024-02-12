@@ -178,6 +178,7 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.default \
     libMtkOmxAlacDec \
     lib_speech_enh \
+    libalacdec_mtk \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
@@ -657,7 +658,6 @@ PRODUCT_PACKAGES += \
     libaaa_ltm \
     libaiawb_sun \
     libalLDC \
-    libalacdec_mtk \
     libalhLDC \
     libanc_dc_base \
     libanc_dc_plugin_xiaomi_v2 \
