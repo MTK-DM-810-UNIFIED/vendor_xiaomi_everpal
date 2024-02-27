@@ -711,7 +711,6 @@ PRODUCT_PACKAGES += \
     libcameracustom.flashlight \
     libcameracustom.lens \
     libcameracustom \
-    libcameracustom_all_sensor_modules \
     libcomposer_ext \
     libdip_imem \
     libdip_postproc \
