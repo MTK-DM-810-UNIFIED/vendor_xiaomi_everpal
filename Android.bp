@@ -349,26 +349,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmtcloader",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmtcloader.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmtcloader.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libnvram",
 	owner: "xiaomi",
 	strip: {
@@ -837,23 +817,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libnxp_extamp_intf.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "librcs_volte_core",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/librcs_volte_core.so"],
 		},
 	},
 	compile_multilib: "32",
@@ -11622,45 +11585,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "rcs_volte_stack",
-	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/rcs_volte_stack"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "teei_daemon",
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/teei_daemon"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "thermal_manager",
-	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/thermal_manager"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "volte_rcs_ua",
-	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/volte_rcs_ua"],
 	check_elf_files: false,
 	strip: {
 		none: true,
